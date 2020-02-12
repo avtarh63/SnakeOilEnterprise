@@ -93,6 +93,7 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #25720d;
+    cursor: pointer;
 }
 
 .btn-full:hover,
@@ -242,4 +243,56 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/*--------------------------------------------*/
+/* CONTACT SECTION */
+/*--------------------------------------------*/
+
+.section-contact {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.contact-form {
+    color: white;
+    background-color: #76d15a;
+    padding: 30px 10px 30px 10px;
+    border-radius: 5%
+}
+
+.section-contact h3 {
+    padding-bottom: 20px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type=submit] {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 40%
 }
