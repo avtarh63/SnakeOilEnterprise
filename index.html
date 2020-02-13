@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    
+
 <head>
 
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+
 
 
     <title>Snake Oil Enterprises</title>
@@ -20,10 +21,10 @@
             <div class="row">
                 <img src="resources/img/snakeoil.jpg" alt="logo" class="logo">
                 <ul class="main-nav">
+                    <li><a href="#">About us</a></li>
                     <li><a href="#">Our products</a></li>
                     <li><a href="#">placeholder</a></li>
                     <li><a href="#">Contact us</a></li>
-                    <li><a href="#">About us</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,6 +35,15 @@
             <a class="btn btn-ghost" href="#">Make a booking</a>
         </div>
     </header>
+
+    <section class="section-about">
+        <div class="row">
+            <h2>About us</h2>
+            <p class="about-text">
+                If you are looking for an alternative to modern medicine then look no further. Here at Snake oil enterprises, we pride our selves on curing ailments and sicknesses, using nothing but natural products. Snake oil enterprises date back to 1920 when its founder, Mary G. Wahl discovered that modern medicine was doing more harm than good to our body, so she traveled around the world learning as much as she could about other cultures and the types of medicine that they use. Once she returned from her journey she used her knowledge to build this company that exists with the sole purpose of curing people the way that nature intended.
+            </p>
+        </div>
+    </section>
 
     <section class="section-products">
         <div class="row">
@@ -46,7 +56,8 @@
                 <p>Medical Marijuana</p>
             </div>
             <div class="col span-2-of-3 box">
-                <p>placeholder </p>
+                <p>Medical marijuana is about as natural as they come. This products is one of our most popular and is used to treat many illnesses such as, Parkinson’s disease, fibromyalgia, endometriosis, interstitial cystitis, and most other conditions where the final common pathway is chronic pain. Marijuana is also used to manage nausea and weight loss, and can be used to treat glaucoma. So what are you waiting for? Order some today. </p>
+                <p class="price"> Only $12.99 per gram!</p>
             </div>
         </div>
 
@@ -56,7 +67,8 @@
                 <p>Cow Urine</p>
             </div>
             <div class="col span-2-of-3 box">
-                <p>"Drinking 10 ml to 20 ml cow urine daily will act as a preventive against seasonal diseases, like fever, cough and stomach-related ailments", said Dr. Prakash Chandra Saxena, superintendent of Government Ayurveda College and Hospital. "Daily consumption of cow urine will also help increase people's immunity."</p>
+                <p>While Snake Oil Enterprises founder, Mary G. Wahl was embraking on her travels to india, she discovered an acient remedy that the people of a small village have been using for centuries. These people all had much higher life expectancys that the average human with a life expectancy of 100 years old! It is even claimed by world renowned doctor, Dr. J.Sidhu that "Drinking 10 ml to 20 ml cow urine daily will act as a preventive against seasonal diseases, like fever, cough and stomach-related ailments and that daily consumption of cow urine will also help increase people's immunity."</p>
+                <p class="price"> Only $8.99 per jar!</p>
             </div>
         </div>
 
@@ -66,7 +78,8 @@
                 <p>Leech Therapy</p>
             </div>
             <div class="col span-2-of-3 box">
-                <p>Leeches seem like they should be avoided at all costs. But it turns out that letting these little suckers get fat on your blood really can have health benefits. Demi Moore admitted that she uses leech blood detoxification to keep herself looking preternaturally young.</p>
+                <p>Leeches seem like they should be avoided at all costs. But it turns out that letting these little suckers get fat on your blood really can have health benefits.Leeches are effective at increasing blood circulation and breaking up blood clots. It should be no surprise that they can be used to treat circulatory disorders and cardiovascular disease. Chemicals derived from leech saliva have been made into pharmaceutical drugs that can treat diseases like hypertension. Leech therapy also boasts cometic benefits. World renoun actress Demi Moore even admitted that she uses leech blood detoxification to keep herself looking preternaturally young. Book an appointment now!</p>
+                <p class="price"> Only $49.99 per session</p>
             </div>
         </div>
 
@@ -76,19 +89,12 @@
                 <p>All cure snake oil </p>
             </div>
             <div class="col span-2-of-3 box">
-                <p>placeholder</p>
+                <p>By for our most popular product, this ointment isn't called the "all cure" snake oil for nothing. This ointment has been proven to cure anything from a broken bone all the way up to cancer! So what are you waiting for? No matter you illness this product is guaranteed to fix it!
+                </p>
+                <p class="price"> Only $99.99 per bottle</p>
             </div>
         </div>
 
-    </section>
-
-    <section class="section-about">
-        <div class="row">
-            <h2>About us</h2>
-            <p class="about-text">
-                If you are looking for an alternative to modern medicine then look no further. Here at Snake oil enterprises, we pride our selves on curing ailments and sicknesses, using nothing but natural products. Snake oil enterprises date back to 1920 when its founder, Mary G. Wahl discovered that modern medicine was doing more harm than good to our body, so she traveled around the world learning as much as she could about other cultures and the types of medicine that they use. Once she returned from her journey she used her knowledge to build this company that exists with the sole purpose of curing people the way that nature intended.
-            </p>
-        </div>
     </section>
 
     <section class="section-customers">
@@ -162,13 +168,77 @@
                 </form>
             </div>
             <div class="col span-1-of-2">
+                <div class="row contact-box">
+                    <div class="col span-1-of-3">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <h3>Address</h3>
+                        <p>85 Parkes Road<br /> Melbourne<br /> Victoria<br /> 3004</p>
+                    </div>
+                </div>
+                <div class="row contact-box">
+                    <div class="col span-1-of-3">
+                        <ion-icon name="time-outline"></ion-icon>
+                    </div>
+                    <div class="col span-2-of-3 shop-hours">
+                        <h3>Shop hours</h3>
+                        <p>Monday <span class="hours">9am-5pm</span><br /> Tuesday <span class="hours">9am-5pm</span><br />Wednesday <span class="hours">9am-5pm</span><br />Thursday <span class="hours">9am-5pm</span><br />Friday <span class="hours">9am-5pm</span><br />Saturday <span class="hours">9am-5pm</span><br />Sunday <span class="hours">9am-5pm</span><br /></p>
+                    </div>
+                </div>
+                <div class="row contact-box">
+                    <div class="col span-1-of-3">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <h3>Details</h3>
+                        <p>Phone: <span class="hours">03-9461 2074</span><br /> Email: <span class="hours">snakeoil@bs.com</span> </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Blog</a> </li>
+                    <li><a href="#">Press</a> </li>
+                    <li><a href="#">IOS App</a> </li>
+                    <li><a href="#">Android App</a> </li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-facebook" class="fb"></ion-icon>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter" class="tw"></ion-icon>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram" class="in"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-snapchat" class="sc"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2020 by Snake Oil Enterprise. All rights reserved.
+            </p>
+        </div>
+    </footer>
 
 
 
-
-
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body></html>
